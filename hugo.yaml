@@ -1,5 +1,5 @@
-baseURL: "/"
-title: W.O.P.R.
+baseURL: "https://creative-medovik-0768f2.netlify.app/"
+title: "W.O.P.R."
 
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu
 
@@ -47,9 +47,9 @@ languages:
   en:
     languageName: English
     contentDir: content/en
-    # title: Goldydocs
-    # params:
-    #   description: A Docsy example site
+    title: W.O.P.R.
+    params:
+      description: War Operation Plan Response
   # cSpell:disable
   # 'no':
   #   languageName: Norsk
