@@ -1,7 +1,7 @@
 ---
-title: "Notas"
-linkTitle: "Notas"
+title: "Proyectos"
+linkTitle: "Proyectos"
 weight: 10
 ---
 
-Colección de notas técnicas y bitácoras tipo README.
+Colección de proyectos técnicos
