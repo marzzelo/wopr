@@ -4,6 +4,11 @@ linkTitle: "Graphia"
 weight: 10
 ---
 
+\[
+\tag*{(1)} P(E) = {n \choose k} p^k (1-p)^{n-k}
+\]
+
+
 ## Objetivo
 Describir...
 
