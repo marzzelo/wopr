@@ -6,13 +6,14 @@ date: 2024-06-10T10:00:00-03:00
 author: "Marcelo Valdez"
 ---
 
-## Interpolación Espectral
-
 La interpolación espectral es una técnica usada en análisis numérico y procesamiento de señales para estimar valores de una función en puntos donde no se midió explícitamente, usando sus valores conocidos y su contenido en frecuencia.
 
 Rellena huecos (gaps) en señales usando interpolación espectral basada en FFT. Esta técnica reconstruye datos faltantes analizando el contenido en frecuencia de la señal alrededor del hueco.
 
-# Interpolación Espectral: Reconstruyendo Señales con Magia Frecuencial
+![alt text](screenshots/infografia.png)
+*Figura: Infografía del proceso de interpolación espectral*
+
+# Reconstrucción de señales mediante Interpolación Espectral
 
 Cuando una señal de audio, una medición de un sensor o cualquier serie de datos tiene un hueco, nuestro primer instinto podría ser simplemente "conectar los puntos" con una línea recta. Pero, ¿qué pasa si la señal es una canción o una vibración compleja? Una línea recta sonaría o se vería artificial.
 
@@ -26,7 +27,8 @@ En el mundo del procesamiento de señales, es común encontrarnos con datos falt
 
 Si simplemente unimos los bordes del hueco, el resultado es poco convincente. La siguiente imagen muestra una señal con datos faltantes en el intervalo aproximado de 7.0 a 7.5 segundos (específicamente entre 7.001 y 7.492 s). La línea roja representa una simple conexión lineal, una solución que ignora por completo la naturaleza oscilatoria y el "ritmo" de la señal original.
 
-<!-- (Figura) Señal con hueco + interpolación lineal (línea roja) -->
+![alt text](<screenshots/2-datos faltantes.png>)
+*Figura: Señal original con datos faltantes y solución de interpolación lineal (rojo)*
 
 Como se puede ver, esta solución es artificial y no respeta el patrón de la señal.
 
@@ -116,8 +118,7 @@ La interpolación espectral es una técnica fundamentalmente más robusta que lo
 3. Combinar la información espectral según el modo seleccionado.
 4. Reconstruir el hueco usando IFFT manteniendo continuidad de fase.
 
-![alt text](screenshots/infografia.png)
-*Figura: Infografía del proceso de interpolación espectral*
+
 
 ![Interpolación Espectral](screenshots/demo_spectral_interpolation.png)
 
