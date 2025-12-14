@@ -4,6 +4,57 @@ https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
 */
 
 // Dark mode enhancements
-@import 'td/color-adjustments-dark';
-@import 'td/code-dark';
-@import 'td/gcs-search-dark';
+// @import 'td/color-adjustments-dark';
+// @import 'td/code-dark';
+// @import 'td/gcs-search-dark';
+
+
+// Ancho de lectura tipo paper
+.td-content {
+  max-width: 120ch;
+}
+
+// Tipografía más "paper" (usa las disponibles; si luego querés, agregamos Google Fonts)
+.td-content {
+  line-height: 1.65;
+  font-size: 1.05rem;
+}
+
+// Mejor espaciado de headings (evita "apiñamiento")
+.td-content h2 { margin-top: 2.2rem; }
+.td-content h3 { margin-top: 1.6rem; }
+
+// Tablas más científicas
+.td-content table {
+  font-size: 0.95rem;
+}
+
+// Figuras/captions tipo informe
+.td-content figure figcaption {
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+// W.O.P.R en monoespaciada (reutilizable)
+.wopr-mono {
+  font-family: var(--bs-font-monospace, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace);
+}
+
+// Marca del navbar (site title) en monoespaciada
+.navbar-brand__name {
+  font-family: var(--bs-font-monospace, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace);
+}
+
+// Portada (cover): título principal en monoespaciada
+.td-cover-block .display-1 {
+  font-family: var(--bs-font-monospace, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace);
+}
+
+// Cover: mostrar imagen completa (sin recorte) cuando el alto es auto
+// Docsy usa `background-size: cover` por defecto (recorta). Con `contain` se ve entera.
+.td-cover-block--height-auto {
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  min-height: clamp(360px, 70vh, 900px);
+}

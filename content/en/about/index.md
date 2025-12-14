@@ -1,23 +1,22 @@
 ---
-title: About Goldydocs
+title: About W.O.P.R.
 linkTitle: About
 menu: { main: { weight: 10 } }
 ---
 
-{{% blocks/cover title="About Goldydocs" image_anchor="bottom" height="auto" %}}
-
-A sample site using the Docsy Hugo theme.
+{{% blocks/cover title="About W.O.P.R." image_anchor="top" height="full" %}}
+A Personal Voyage through the world of science, technology and beyond.
 
 {{% /blocks/cover %}}
 
 {{% blocks/lead %}}
 
-Goldydocs is a sample site using the [Docsy](https://github.com/google/docsy)
-Hugo theme that shows what it can do and provides you with a template site
-structure. It’s designed for you to clone and edit as much as you like. See the
-different sections of the documentation and site for more ideas.
+W.O.P.R. (War Operation Plan Response) is a fictional supercomputer from the 1983 movie "WarGames". 
+In this site, we explore various topics related to technology, science and engineering, inspired by the themes of the movie.
 
 {{% /blocks/lead %}}
+
+<!--
 
 {{% blocks/section type="row text-center" %}}
 
@@ -29,4 +28,4 @@ different sections of the documentation and site for more ideas.
 
 # This is another section with default alignment
 
-{{% /blocks/section %}}
+{{% /blocks/section %}} -->
