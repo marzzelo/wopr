@@ -1,7 +1,11 @@
 ---
-title: "Proyectos"
-linkTitle: "Proyectos"
-weight: 10
+title: Software
+linkTitle: Software
+menu: { main: { weight: 20 } }
 ---
 
-Colección de proyectos técnicos
+{{% pageinfo %}}
+Mathematical and Technical Software
+{{% /pageinfo %}}
+
+Collection of Mathematical and Technical Software projects

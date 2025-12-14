@@ -4,7 +4,7 @@ title: "W.O.P.R."
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu
 
 # Language settings
-contentDir: content/en
+contentDir: content
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
 # Useful when translating.
@@ -50,6 +50,13 @@ languages:
     title: W.O.P.R.
     params:
       description: A Personal Voyage
+  es:
+    languageName: Español
+    contentDir: content/es
+    title: W.O.P.R.
+    weight: 2
+    params:
+      description: Un viaje personal
   # cSpell:disable
   # 'no':
   #   languageName: Norsk

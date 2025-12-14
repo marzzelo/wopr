@@ -1,6 +1,7 @@
 ---
 title: "Spectral Interpolation"
 linkTitle: "Spectral Interpolation"
+weight: 60
 date: 2024-06-10T10:00:00-03:00
 author: "Marcelo Valdez"
 ---
